@@ -1,0 +1,14 @@
+
+
+::ng-deep {
+    .owl-carousel {
+      .owl-stage-outer {
+        .owl-stage {
+          // Your styles for the .owl-stage div go here
+            display: flex;
+            align-items: center;
+        }
+      }
+    }
+  }
+
