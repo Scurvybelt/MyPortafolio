@@ -17,6 +17,7 @@ import {NgClickOutsideDirective} from 'ng-click-outside2';
 import { ScrollSpyModule } from 'ng-spy';
 import { BrandsComponent } from './main/brands/brands.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     ScrollSpyModule,
     NgClickOutsideDirective,
     ReactiveFormsModule,
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
